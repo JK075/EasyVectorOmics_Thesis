@@ -1,8 +1,8 @@
-# Tensor Omics
+# EasyVectorOmics
 
 ## General Information
 
-Tensor Omics is a project currently funded by the Carl-Zeiss-Stiftung ("EasyVectorOmics") and aims at Multi Omics, and textual knowledge integration for high performance computing geometric Biomarker learning. Interactive scientific visualization for expert data exploration and hypothesis generation is supported by an graphical user user interface in the web-browser. 
+EasyVectorOmics is a project currently funded by the Carl-Zeiss-Stiftung ("EasyVectorOmics") and aims at Multi Omics, and textual knowledge integration for high performance computing geometric Biomarker learning. Interactive scientific visualization for expert data exploration and hypothesis generation is supported by an graphical user user interface in the web-browser. 
 
 ## Abstract
 
