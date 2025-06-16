@@ -217,15 +217,20 @@ The evolutionary angle calculations provide insights into the geometric relation
     \end{itemize}
 
     \item \textbf{Clock Plot Projection and Rotation Angle Computation:}
-    \begin{itemize}
-        \item Gene expression vectors and their centroids are projected into the \textbf{Relative Axes Plane (RAP)}, which is orthogonal to the space diagonal and intersects the origin.
-        \item The projection is used to compute the rotation angle (\( \phi \)) between the centroid and the gene's expression vector in the RAP:
-        \[
-        \phi = \arccos\left(\frac{\vec{p}_{\text{proj}} \cdot \vec{o}_{\text{proj}}}{\|\vec{p}_{\text{proj}}\| \cdot \|\vec{o}_{\text{proj}}\|}\right)
-        \]
-        where \( \vec{p}_{\text{proj}} \) and \( \vec{o}_{\text{proj}} \) are the projections of the gene vector and centroid vector, respectively, onto the RAP.
-        \item This angle quantifies the divergence of a gene's expression pattern from its family centroid in the RAP, providing insights into functional differentiation and adaptation.
-    \end{itemize}
+\begin{itemize}
+    \item Tissue preference does not describe the overall expression magnitude or uniformity, but rather \emph{which} tissues a gene is preferentially expressed in. To separate this from general expression levels, the common component along the diagonal was removed.
+    \item Specifically, a gene expression vector \( \vec{g} \) was projected onto the unit diagonal vector \( \vec{d}_{\text{unit}} = \frac{\vec{d}}{\|\vec{d}\|} \), and this projection was subtracted to obtain the \textit{clockhand vector}:
+    \[
+    \vec{g}_{\text{clock}} = \vec{g} - \left( (\vec{g} \cdot \vec{d}_{\text{unit}}) \cdot \vec{d}_{\text{unit}} \right)
+    \]
+    \item This operation isolates the deviation of a gene’s expression from uniform expression across tissues, effectively capturing its tissue-specific expression signature.
+    \item To quantify differences in tissue preference, the angle \( \psi \) between two clockhand vectors \( \vec{a}_{\text{clock}} \) and \( \vec{b}_{\text{clock}} \) was computed:
+    \[
+    \psi = \arccos \left( \frac{ \vec{a}_{\text{clock}} \cdot \vec{b}_{\text{clock}} }{ \|\vec{a}_{\text{clock}}\| \cdot \|\vec{b}_{\text{clock}}\| } \right)
+    \]
+    \item Because both vectors lie in the hyperplane orthogonal to the diagonal, the angle \( \psi \) reflects the \emph{directional difference} in tissue-specific expression, independent of expression magnitude.
+\end{itemize}
+
 
     \item \textbf{Pairwise Angle Calculations:}
     \begin{itemize}
