@@ -1,0 +1,11 @@
+Monkey (Macaca fascicularis) Reference Genome: Genome assembly T2T-MFA8v1.0
+Link: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_037993035.1/
+
+Dog (Canis lupus familiaris) Reference Genome: Genome assembly UU_Cfam_GSD_1.0
+Link: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_011100685.1/
+
+Mouse (Mus musculus) Reference Genome: Genome assembly GRCm39
+Link: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001635.27/
+
+Rat (Rattus norvegicus) Reference Genome: Genome assembly GRCr8
+Link: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_036323735.1/
