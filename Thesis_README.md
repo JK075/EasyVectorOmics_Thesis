@@ -22,6 +22,8 @@ In addition to the transcription data, the following reference data were downloa
 - Coding sequences (CDS) (FASTA)
 
 These datasets are based on the latest genome assemblies and are documented in the respective `README` files of the downloaded NCBI archives.
+A comprehensive list of all genome resources used in this thesis is provided in supplementary_data/Links_IDs.txt. Each link points to the exact reference genome assembly utilized in the study. Within the “Download” section of each corresponding NCBI page, users can access the associated reference transcripts, coding sequences (CDS), protein FASTA files, as well as GTF annotation files and complete NCBI dataset packages that were used
+throughout the thesis.
 
 ---
 
