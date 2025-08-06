@@ -1,0 +1,374 @@
+Wordcloud Analysis Log
+======================
+
+Analysis started at: 2025-05-26 14:19:42.476734 
+Number of outliers: 1816 
+Number of non-outliers: 34486 
+
+
+=== Ontology: BP ===
+
+Top 15 GO IDs and their frequencies:
+  goid                                                                   desc
+  6357                       regulation of transcription by RNA polymerase II
+ 45944              positive regulation of transcription by RNA polymerase II
+  7186                           G protein-coupled receptor signaling pathway
+ 45893                     positive regulation of DNA-templated transcription
+  6412                                                            translation
+  9987                                                       cellular process
+  6338                                                   chromatin remodeling
+ 50911 detection of chemical stimulus involved in sensory perception of smell
+  7165                                                    signal transduction
+   122              negative regulation of transcription by RNA polymerase II
+  6508                                                            proteolysis
+ 15031                                                      protein transport
+ 51301                                                          cell division
+  6915                                                      apoptotic process
+ 45892                     negative regulation of DNA-templated transcription
+   n
+ 100
+  74
+  71
+  70
+  69
+  65
+  63
+  60
+  58
+  57
+  51
+  50
+  45
+  44
+  43
+
+Number of unique words in wordcloud: 1724 
+
+Top 10 words in wordcloud:
+       Word Frequency
+ regulation      3318
+    process      1333
+   positive      1332
+       cell      1252
+   response      1167
+   negative       901
+    protein       784
+  signaling       613
+   cellular       607
+  transport       569
+
+Fisher's exact test results for GO IDs (top 20 significant):
+   go_id                                             description      p_value
+   51685                              maintenance of ER location 2.938315e-28
+ 1904714              regulation of chaperone-mediated autophagy 4.202066e-12
+    6368           transcription elongation by RNA polymerase II 7.308969e-12
+     494                     box C/D sno(s)RNA 3'-end processing 9.427192e-12
+   50992          dimethylallyl diphosphate biosynthetic process 1.648087e-10
+    1835                                     blastocyst hatching 7.718273e-10
+    8299                         isoprenoid biosynthetic process 1.568545e-09
+   45541 negative regulation of cholesterol biosynthetic process 1.568545e-09
+   46490               isopentenyl diphosphate metabolic process 1.568545e-09
+   45110                   intermediate filament bundle assembly 3.450563e-09
+   32957                inositol trisphosphate metabolic process 5.382870e-09
+   44830      modulation by host of viral RNA genome replication 5.382870e-09
+   71919                              G-quadruplex DNA formation 5.382870e-09
+    5980                              glycogen catabolic process 1.351684e-08
+   30258                                      lipid modification 3.632843e-08
+   71352                      cellular response to interleukin-2 4.654495e-08
+     390                        spliceosomal complex disassembly 6.404541e-08
+    1552                                ovarian follicle atresia 6.404541e-08
+   48633    positive regulation of skeletal muscle tissue growth 6.404541e-08
+   90324        negative regulation of oxidative phosphorylation 6.404541e-08
+ odds_ratio outlier_count background_count total_outliers total_background
+ 131.912889            23                4          10995           251587
+  76.296638            10                3          10995           251587
+   6.513465            25               88          10995           251587
+        Inf             8                0          10995           251587
+  25.193498            11               10          10995           251587
+   8.288638            17               47          10995           251587
+  34.323450             9                6          10995           251587
+  34.323450             9                6          10995           251587
+  34.323450             9                6          10995           251587
+  29.441600             9                7          10995           251587
+        Inf             6                0          10995           251587
+        Inf             6                0          10995           251587
+        Inf             6                0          10995           251587
+   9.925911            13               30          10995           251587
+ 137.418874             6                1          10995           251587
+  26.168177             8                7          10995           251587
+  40.073233             7                4          10995           251587
+  40.073233             7                4          10995           251587
+  40.073233             7                4          10995           251587
+  40.073233             7                4          10995           251587
+   adjusted_p
+ 2.772594e-24
+ 1.982535e-08
+ 2.223874e-08
+ 2.223874e-08
+ 3.110269e-07
+ 1.213827e-06
+ 1.644532e-06
+ 1.644532e-06
+ 1.644532e-06
+ 3.255951e-06
+ 3.907136e-06
+ 3.907136e-06
+ 3.907136e-06
+ 9.110352e-06
+ 2.285300e-05
+ 2.744988e-05
+ 3.021663e-05
+ 3.021663e-05
+ 3.021663e-05
+ 3.021663e-05
+
+=== Ontology: CC ===
+
+Top 15 GO IDs and their frequencies:
+  goid                           desc   n
+  5829                        cytosol 351
+  5634                        nucleus 346
+  5886                plasma membrane 300
+  5737                      cytoplasm 287
+ 16020                       membrane 238
+  5654                    nucleoplasm 174
+ 70013  intracellular organelle lumen 149
+ 70062          extracellular exosome 147
+  5730                      nucleolus 101
+  5576           extracellular region  82
+  5739                  mitochondrion  82
+  5789 endoplasmic reticulum membrane  77
+  5615            extracellular space  69
+  5783          endoplasmic reticulum  68
+  5743   mitochondrial inner membrane  65
+
+Number of unique words in wordcloud: 599 
+
+Top 10 words in wordcloud:
+          Word Frequency
+      membrane      1356
+       complex       805
+        plasma       405
+       cytosol       362
+       nucleus       357
+     cytoplasm       344
+ extracellular       343
+     organelle       335
+          cell       234
+     reticulum       227
+
+Fisher's exact test results for GO IDs (top 20 significant):
+ go_id                                                     description
+ 16591                                   RNA polymerase II, holoenzyme
+ 97550                             transcription preinitiation complex
+ 31674                                                          I band
+  5853              eukaryotic translation elongation factor 1 complex
+ 71565                                                    nBAF complex
+  5681                                            spliceosomal complex
+ 35632                                mitochondrial prohibitin complex
+ 30665                                clathrin-coated vesicle membrane
+   974                                                   Prp19 complex
+  5635                                                nuclear envelope
+ 31428                        box C/D methylation guide snoRNP complex
+ 16471              vacuolar proton-transporting V-type ATPase complex
+ 35060                                                  brahma complex
+ 33178 proton-transporting two-sector ATPase complex, catalytic domain
+ 98574                          cytoplasmic side of lysosomal membrane
+ 43209                                                   myelin sheath
+  5743                                    mitochondrial inner membrane
+ 30893                                         meiotic cohesin complex
+ 30478                                                       actin cap
+ 16363                                                  nuclear matrix
+      p_value odds_ratio outlier_count background_count total_outliers
+ 1.308245e-26 110.869924            23                4           6538
+ 2.980992e-20  23.130143            24               20           6538
+ 1.330888e-16  12.355733            25               39           6538
+ 8.744270e-14        Inf            10                0           6538
+ 6.200466e-11  15.847812            14               17           6538
+ 9.708819e-09   3.754296            30              154           6538
+ 1.464847e-08        Inf             6                0           6538
+ 9.582342e-08   5.741152            17               57           6538
+ 1.437336e-07  12.822921            10               15           6538
+ 1.574177e-07   3.177687            31              188           6538
+ 3.218760e-07  19.239443             8                8           6538
+ 4.274730e-07   9.200844            11               23           6538
+ 7.663277e-07  12.363085             9               14           6538
+ 1.080708e-06  38.448591             6                3           6538
+ 2.587593e-06  28.813973             6                4           6538
+ 3.752830e-06   2.311100            41              342           6538
+ 4.510291e-06   1.892143            65              663           6538
+ 5.571591e-06  14.953454             7                9           6538
+ 5.990287e-06        Inf             4                0           6538
+ 6.144013e-06   2.841664            27              183           6538
+ total_background   adjusted_p
+           125588 1.751740e-23
+           125588 1.995774e-17
+           125588 5.940197e-14
+           125588 2.927145e-11
+           125588 1.660485e-08
+           125588 2.166685e-06
+           125588 2.802044e-06
+           125588 1.603844e-05
+           125588 2.107823e-05
+           125588 2.107823e-05
+           125588 3.918109e-05
+           125588 4.769886e-05
+           125588 7.893176e-05
+           125588 1.033620e-04
+           125588 2.309858e-04
+           125588 3.140650e-04
+           125588 3.552517e-04
+           125588 4.017941e-04
+           125588 4.017941e-04
+           125588 4.017941e-04
+
+=== Ontology: MF ===
+
+Top 15 GO IDs and their frequencies:
+  goid                                                                  desc
+  5515                                                       protein binding
+  3723                                                           RNA binding
+ 42802                                             identical protein binding
+ 46872                                                     metal ion binding
+  5524                                                           ATP binding
+  3735                                    structural constituent of ribosome
+  3677                                                           DNA binding
+  5509                                                   calcium ion binding
+   981 DNA-binding transcription factor activity, RNA polymerase II-specific
+  4930                                   G protein-coupled receptor activity
+  4984                                           olfactory receptor activity
+  5525                                                           GTP binding
+ 42803                                     protein homodimerization activity
+  8270                                                      zinc ion binding
+ 19901                                                protein kinase binding
+   n
+ 373
+ 178
+ 157
+ 153
+ 117
+  79
+  72
+  70
+  67
+  67
+  60
+  55
+  53
+  52
+  51
+
+Number of unique words in wordcloud: 919 
+
+Top 10 words in wordcloud:
+          Word Frequency
+       binding      3168
+      activity      2501
+       protein      1051
+           rna       528
+      receptor       361
+           ion       345
+ transcription       343
+    polymerase       308
+        kinase       295
+           dna       276
+
+Fisher's exact test results for GO IDs (top 20 significant):
+   go_id                                                     description
+    3711                        transcription elongation factor activity
+    3723                                                     RNA binding
+     993                               RNA polymerase II complex binding
+    8184                                 glycogen phosphorylase activity
+   31220                             maltodextrin phosphorylase activity
+   16314 phosphatidylinositol-3,4,5-trisphosphate 3-phosphatase activity
+    8649                                 rRNA methyltransferase activity
+    4802                                          transketolase activity
+   30976                                  thiamine pyrophosphate binding
+    4452                isopentenyl-diphosphate delta-isomerase activity
+   30695                                       GTPase regulator activity
+   30674                          protein-macromolecule adaptor activity
+   31871                           proteinase activated receptor binding
+ 1990259                      histone H2AQ104 methyltransferase activity
+   30170                                     pyridoxal phosphate binding
+   46961       proton-transporting ATPase activity, rotational mechanism
+    5521                                                   lamin binding
+    1097                TFIIH-class transcription factor complex binding
+   61628                               H3K27me3 modified histone binding
+  106140                                          P-TEFb complex binding
+      p_value odds_ratio outlier_count background_count total_outliers
+ 2.594239e-21  30.171632            23               16           5787
+ 1.832270e-20   2.266398           178             1671           5787
+ 1.102010e-17  15.261758            24               33           5787
+ 8.081388e-17        Inf            12                0           5787
+ 8.081388e-17        Inf            12                0           5787
+ 8.192078e-12 188.461890             9                1           5787
+ 1.874151e-11        Inf             8                0           5787
+ 4.320920e-11  94.407154             9                2           5787
+ 4.320920e-11  94.407154             9                2           5787
+ 4.086418e-10  23.041622            11               10           5787
+ 5.166332e-10  47.114579             9                4           5787
+ 1.650191e-09   3.661377            34              195           5787
+ 9.016406e-09        Inf             6                0           5787
+ 1.961861e-08  33.498039             8                5           5787
+ 2.069495e-08   5.609954            19               71           5787
+ 2.540296e-08   5.895990            18               64           5787
+ 2.850952e-08  20.939667             9                9           5787
+ 1.977153e-07        Inf             5                0           5787
+ 1.977153e-07        Inf             5                0           5787
+ 1.977153e-07        Inf             5                0           5787
+ total_background   adjusted_p
+           121008 7.211985e-18
+           121008 2.546856e-17
+           121008 1.021196e-14
+           121008 4.493252e-14
+           121008 4.493252e-14
+           121008 3.795663e-09
+           121008 7.443056e-09
+           121008 1.334684e-08
+           121008 1.334684e-08
+           121008 1.136024e-07
+           121008 1.305673e-07
+           121008 3.822942e-07
+           121008 1.928124e-06
+           121008 3.835464e-06
+           121008 3.835464e-06
+           121008 4.413765e-06
+           121008 4.662145e-06
+           121008 2.748243e-05
+           121008 2.748243e-05
+           121008 2.748243e-05
+
+=== Combined Ontologies: BP+CC+MF ===
+
+Top 15 GO IDs and their frequencies:
+  goid                                             desc   n
+  5515                                  protein binding 373
+  5829                                          cytosol 351
+  5634                                          nucleus 346
+  5886                                  plasma membrane 300
+  5737                                        cytoplasm 287
+ 16020                                         membrane 238
+  3723                                      RNA binding 178
+  5654                                      nucleoplasm 174
+ 42802                        identical protein binding 157
+ 46872                                metal ion binding 153
+ 70013                    intracellular organelle lumen 149
+ 70062                            extracellular exosome 147
+  5524                                      ATP binding 117
+  5730                                        nucleolus 101
+  6357 regulation of transcription by RNA polymerase II 100
+
+Number of unique words in combined wordcloud: 2508 
+
+Top 10 words in combined wordcloud:
+       Word Frequency
+ regulation      3321
+    binding      3182
+   activity      2573
+    protein      1883
+   membrane      1644
+       cell      1500
+    process      1333
+   positive      1332
+   response      1167
+    complex      1055
